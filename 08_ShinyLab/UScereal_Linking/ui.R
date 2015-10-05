@@ -53,7 +53,7 @@ shinyUI(fluidPage(
   # show the cereal names of the brushed points
   # http://shiny.rstudio.com/articles/selecting-rows-of-data.html
   fluidRow(
-    column(8, offset = 4,
+    column(4, offset = 6,
       strong("Selected cereals:"),
       # Display as htmlOutput, not textOutput,
       # so that the line break tags <br> are interpreted
